@@ -15,7 +15,7 @@ export default function NosotrosPage() {
       <div className="mx-auto grid max-w-7xl gap-12 px-5 md:grid-cols-2 md:items-center">
         <div className="relative aspect-square overflow-hidden rounded-lg border border-border">
           <Image
-            src="https://picsum.photos/seed/viper-team/1280/1280"
+            src="/images/shop.jpg"
             alt="Equipo de mecánicos de Viper Garage"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"

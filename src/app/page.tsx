@@ -32,7 +32,7 @@ export default function Home() {
       {/* HERO */}
       <section className="relative overflow-hidden">
         <Image
-          src="https://picsum.photos/seed/viper-hero/1920/1080"
+          src="/images/hero-garage.jpg"
           alt="Auto en revisión dentro del taller Viper Garage"
           fill
           priority
@@ -97,10 +97,14 @@ export default function Home() {
           <div className="hidden items-center justify-center md:flex">
             <div className="relative">
               <div className="absolute inset-0 -z-10 rounded-full bg-primary/30 blur-[80px]" />
-              <div className="flex h-[280px] w-[280px] items-center justify-center rounded-2xl border border-border/60 bg-card">
-                <span className="font-display text-7xl font-black text-primary">
-                  V
-                </span>
+              <div className="relative h-[280px] w-[280px] overflow-hidden rounded-2xl border border-border/60 bg-black">
+                <Image
+                  src="/images/logo.jpg"
+                  alt="Viper Garage logo"
+                  fill
+                  sizes="280px"
+                  className="object-cover"
+                />
               </div>
             </div>
           </div>
@@ -182,7 +186,7 @@ export default function Home() {
         <div className="grid md:grid-cols-2">
           <div className="relative min-h-[360px]">
             <Image
-              src="https://picsum.photos/seed/viper-engine/1280/1280"
+              src="/images/engine.jpg"
               alt="Servicio mayor de motor en Viper Garage"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
@@ -241,7 +245,7 @@ export default function Home() {
         <div className="mx-auto grid max-w-7xl gap-12 px-5 md:grid-cols-2 md:items-center">
           <div className="relative aspect-square overflow-hidden rounded-lg border border-border">
             <Image
-              src="https://picsum.photos/seed/viper-shop/1280/1280"
+              src="/images/shop.jpg"
               alt="Interior del taller Viper Garage"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"

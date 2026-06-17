@@ -13,7 +13,7 @@ export const site = {
   whatsapp: "https://wa.me/524421439345",
   email: "contacto@vipergarage.mx",
   address: {
-    streetAddress: "Av. del Sol 5006, Puerta del Sol II",
+    streetAddress: "Prolongación Bernardo Quintana 5006, Puertas del Sol II",
     addressLocality: "Santiago de Querétaro",
     addressRegion: "Querétaro",
     postalCode: "76114",

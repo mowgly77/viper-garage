@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone } from "lucide-react";
 import { site } from "@/lib/site";
 
@@ -14,10 +15,14 @@ export default function Header() {
     <header className="sticky top-0 z-40 border-b border-border/60 bg-background/85 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-3">
         <Link href="/" className="flex items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-md bg-primary/10 ring-1 ring-primary/40">
-            <span className="font-display text-lg font-black text-primary">
-              V
-            </span>
+          <span className="relative flex h-11 w-11 shrink-0 items-center justify-center overflow-hidden rounded-md bg-black ring-1 ring-primary/40">
+            <Image
+              src="/images/logo-icon.jpg"
+              alt="Viper Garage"
+              fill
+              sizes="44px"
+              className="object-cover"
+            />
           </span>
           <span className="leading-tight">
             <span className="block font-display text-base font-black tracking-widest">

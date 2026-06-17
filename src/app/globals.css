@@ -6,15 +6,15 @@
   --card: #141415;
   --border: #27272a;
   --muted-foreground: #a1a1aa;
-  --primary: #e11d2e;
+  --primary: #b3262c;
   --primary-foreground: #fff5f5;
 
   --gradient-hero: radial-gradient(
     ellipse 80% 60% at 50% -10%,
-    rgba(225, 29, 46, 0.35),
+    rgba(179, 38, 44, 0.28),
     transparent
   );
-  --shadow-viper: 0 8px 30px -8px rgba(225, 29, 46, 0.55);
+  --shadow-viper: 0 8px 30px -8px rgba(179, 38, 44, 0.45);
 }
 
 @theme inline {
@@ -39,13 +39,13 @@ body {
 }
 
 .text-glow-red {
-  text-shadow: 0 0 24px rgba(225, 29, 46, 0.55);
+  text-shadow: 0 0 18px rgba(179, 38, 44, 0.4);
 }
 
 .hex-pattern {
   background-image: radial-gradient(
     circle at 1px 1px,
-    rgba(225, 29, 46, 0.35) 1px,
+    rgba(179, 38, 44, 0.3) 1px,
     transparent 0
   );
   background-size: 22px 22px;
