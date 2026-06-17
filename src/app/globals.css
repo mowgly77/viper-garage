@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0a0a0b;
+  --foreground: #f5f4f2;
+  --card: #141415;
+  --border: #27272a;
+  --muted-foreground: #a1a1aa;
+  --primary: #e11d2e;
+  --primary-foreground: #fff5f5;
+
+  --gradient-hero: radial-gradient(
+    ellipse 80% 60% at 50% -10%,
+    rgba(225, 29, 46, 0.35),
+    transparent
+  );
+  --shadow-viper: 0 8px 30px -8px rgba(225, 29, 46, 0.55);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --font-sans: var(--font-rajdhani);
+  --font-display: var(--font-orbitron);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.text-glow-red {
+  text-shadow: 0 0 24px rgba(225, 29, 46, 0.55);
+}
+
+.hex-pattern {
+  background-image: radial-gradient(
+    circle at 1px 1px,
+    rgba(225, 29, 46, 0.35) 1px,
+    transparent 0
+  );
+  background-size: 22px 22px;
+}
+
+/* Estilos básicos para contenido de blog renderizado desde Markdown */
+.prose-viper h1,
+.prose-viper h2,
+.prose-viper h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+.prose-viper h2 {
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+.prose-viper h3 {
+  font-size: 1.15rem;
+}
+.prose-viper p {
+  margin-bottom: 1.1rem;
+  line-height: 1.75;
+  color: var(--foreground);
+}
+.prose-viper ul {
+  list-style: disc;
+  padding-left: 1.4rem;
+  margin-bottom: 1.1rem;
+}
+.prose-viper li {
+  margin-bottom: 0.4rem;
+}
+.prose-viper blockquote {
+  border-left: 3px solid var(--primary);
+  padding-left: 1rem;
+  font-style: italic;
+  color: var(--muted-foreground);
+  margin-bottom: 1.1rem;
+}
+.prose-viper a {
+  color: var(--primary);
+}
