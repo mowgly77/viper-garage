@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Nosotros",
   description:
-    "Conoce a Viper Garage: más de 10 años de experiencia, mecánicos certificados y más de 5,000 reseñas de clientes en Querétaro.",
+    "Conoce a Viper Garage: más de 10 años de experiencia, mecánicos certificados y calificación de 5 estrellas en Querétaro.",
   alternates: { canonical: "/nosotros" },
 };
 
@@ -47,7 +47,7 @@ export default function NosotrosPage() {
 
           <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-border bg-border">
             {[
-              ["5,016", "Reseñas Google"],
+              ["15", "Reseñas Google"],
               ["5.0", "Calificación"],
               ["+10", "Años de experiencia"],
               ["100%", "Servicio honesto"],

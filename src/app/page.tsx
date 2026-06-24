@@ -60,8 +60,8 @@ export default function Home() {
             <p className="mt-6 max-w-xl text-lg text-muted-foreground">
               En Viper Garage cuidamos tu vehículo como si fuera nuestro.
               Afinaciones, frenos, suspensiones y diagnóstico computarizado
-              con la confianza de más de{" "}
-              <strong className="text-foreground">5,000 clientes</strong>.
+              con la confianza de una{" "}
+              <strong className="text-foreground">calificación de 5 estrellas</strong>.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
@@ -268,7 +268,7 @@ export default function Home() {
             </p>
             <div className="mt-10 grid grid-cols-2 gap-px overflow-hidden rounded-lg border border-border bg-border">
               {[
-                ["5,016", "Reseñas Google"],
+                ["15", "Reseñas Google"],
                 ["5.0", "Calificación"],
                 ["+10", "Años de experiencia"],
                 ["100%", "Servicio honesto"],

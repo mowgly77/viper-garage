@@ -6,7 +6,7 @@ export const site = {
   tagline: "Car Service",
   legalName: "Viper Garage",
   description:
-    "Taller automotriz Viper Garage en Querétaro. Afinaciones, frenos, suspensiones, alineación, balanceo y diagnóstico computarizado. Mecánicos honestos, +5,000 reseñas.",
+    "Taller automotriz Viper Garage en Querétaro. Afinaciones, frenos, suspensiones, alineación, balanceo y diagnóstico computarizado. Mecánicos honestos, calificación 5 estrellas en Google.",
   url: "https://viper-garage.vercel.app",
   phoneDisplay: "442 143 9345",
   phoneE164: "+524421439345",
@@ -33,6 +33,6 @@ export const site = {
   },
   rating: {
     value: 5.0,
-    count: 5016,
+    count: 15,
   },
 } as const;
