@@ -11,7 +11,9 @@ export const site = {
   phoneDisplay: "442 143 9345",
   phoneE164: "+524421439345",
   whatsapp: "https://wa.me/524421439345",
-  email: "contacto@vipergarage.mx",
+  // Correo profesional con redirección (Cloudflare Email Routing) hacia el Gmail
+  // actual del cliente — se activa al confirmar el dominio vipergarage.com.mx
+  email: "contacto@vipergarage.com.mx",
   address: {
     streetAddress: "Prolongación Bernardo Quintana 5006, Puertas del Sol II",
     addressLocality: "Santiago de Querétaro",

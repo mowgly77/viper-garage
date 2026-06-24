@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contacto",
   description:
-    "Llama, escribe por WhatsApp o visita Viper Garage en Av. del Sol 5006, Santiago de Querétaro. Lun-Sáb 9:00 a.m. - 6:00 p.m.",
+    "Llama, escribe por WhatsApp o visita Viper Garage en Prolongación Bernardo Quintana 5006, Puertas del Sol II, Santiago de Querétaro. Lun-Sáb 9:00 a.m. - 6:00 p.m.",
   alternates: { canonical: "/contacto" },
 };
 

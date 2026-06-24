@@ -11,17 +11,14 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-5">
         <div className="flex flex-col items-center justify-between gap-4 border-b border-border/60 pb-6 md:flex-row">
           <div className="flex items-center gap-3">
-            <span className="relative flex h-8 w-8 shrink-0 items-center justify-center overflow-hidden rounded bg-black ring-1 ring-primary/40">
+            <span className="relative h-9 w-[100px] shrink-0">
               <Image
-                src="/images/logo-icon.jpg"
-                alt="Viper Garage"
+                src="/images/logo-header.jpg"
+                alt="Viper Garage Car Service"
                 fill
-                sizes="32px"
-                className="object-cover"
+                sizes="100px"
+                className="object-contain"
               />
-            </span>
-            <span className="font-display text-xs font-bold uppercase tracking-[0.3em]">
-              {site.name} · {site.tagline}
             </span>
           </div>
 
@@ -41,9 +38,22 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-center justify-between gap-4 pt-6 text-sm text-muted-foreground md:flex-row">
-          <div>
-            © {new Date().getFullYear()} {site.name}. Todos los derechos
-            reservados.
+          <div className="text-center md:text-left">
+            <div>
+              © {new Date().getFullYear()} {site.name}. Todos los derechos
+              reservados.
+            </div>
+            <div className="mt-1 text-xs text-muted-foreground/70">
+              Desarrollado por{" "}
+              <a
+                href="https://www.brick-mortar.com.mx"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-primary hover:underline"
+              >
+                Brick &amp; Mortar
+              </a>
+            </div>
           </div>
 
           <div className="flex items-center gap-2">
